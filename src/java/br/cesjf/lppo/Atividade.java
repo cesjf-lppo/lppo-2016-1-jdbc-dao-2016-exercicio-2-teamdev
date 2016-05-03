@@ -1,5 +1,4 @@
 package br.cesjf.lppo;
-
 import java.sql.Date;
 
 public class Atividade {
@@ -49,5 +48,4 @@ public class Atividade {
         this.horas = horas;
     }
 }
-
 
