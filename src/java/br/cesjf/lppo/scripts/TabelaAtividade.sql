@@ -1,0 +1,7 @@
+CREATE TABLE atividade(
+    id INT NOT NULL GENERATED ALWAYS AS IDENTITY,
+    funcionario VARCHAR(250) NOT NULL,
+    descricao VARCHAR(32672) NOT NULL,
+    tipo VARCHAR(50) NOT NULL,
+    horas INT NOT NULL
+);
