@@ -1,5 +1,4 @@
 package br.cesjf.lppo;
-import java.sql.Date;
 
 public class Atividade {
     private Long id;

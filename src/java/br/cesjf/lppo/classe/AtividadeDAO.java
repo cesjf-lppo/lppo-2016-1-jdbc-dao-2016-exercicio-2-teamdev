@@ -16,7 +16,7 @@ public class AtividadeDAO {
         try {
             Connection conexao = ConexaoJDBC.getInstance();
             Statement operacao = conexao.createStatement();
-            ResultSet resultado = operacao.executeQuery("SELECT * FROM estabelecimento");
+            ResultSet resultado = operacao.executeQuery("SELECT * FROM atividade");
             while (resultado.next()) {
                 Atividade ativ = new Atividade();
                 ativ.setId(resultado.getLong("id"));

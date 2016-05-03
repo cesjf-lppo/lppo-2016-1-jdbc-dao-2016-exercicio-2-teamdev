@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "AtividadeController", urlPatterns = {"/atividade/listar.html", "/atividade/cadastrar.html"})
+@WebServlet(name = "AtividadeController", urlPatterns = {"/views/atividade/listar.html", "/views/atividade/cadastrar.html"})
 public class AtividadeController extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
